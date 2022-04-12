@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    background-image: url("fundo.jpg");
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center center;
+}
+
+form {
+    background-color: white;
+    opacity: 90%;
+    box-shadow: 5px 5px 5px 7px rgba(0, 0, 0, 0.100);
+    width: 300px;
+    height: 300px;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: rgb(55, 103, 158);
+    text-align: center;
+}
+
+#email #pass {
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.btn.btn-primery {
+    display: block;
+    margin: auto;
+}
